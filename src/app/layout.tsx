@@ -22,6 +22,14 @@ export default function ({ children }) {
         <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
         <meta name="theme-color" content="#2f2f2f" media="(prefers-color-scheme: dark)" />
         <meta name="robots" content="noindex,nofollow" />
+        <!-- Facebook Meta Tags -->
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://opengraph.b-cdn.net/production/images/92b53b3e-5a36-4fef-8b2b-af081349ce7d.jpg?token=pms8QCdoTXB67MBwb0XweMyAte-wt8zih1AjeSq4gk8&height=1125&width=1200&expires=33261054747">
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/92b53b3e-5a36-4fef-8b2b-af081349ce7d.jpg?token=pms8QCdoTXB67MBwb0XweMyAte-wt8zih1AjeSq4gk8&height=1125&width=1200&expires=33261054747">
+
+<!-- Meta Tags Generated via https://www.opengraph.xyz -->
       </head>
       <body>
         <Providers>{children}</Providers>
